@@ -1,6 +1,6 @@
 {
-    "name": "react-native-video",
-    "version": "5.1.0-alpha5",
+    "name": "@vollainc/react-native-video",
+    "version": "5.1.0-vollaa5",
     "description": "A <Video /> element for react-native",
     "main": "Video.js",
     "license": "MIT",
@@ -25,7 +25,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git@github.com:react-native-community/react-native-video.git"
+        "url": "https://github.com/VollaInc/react-native-video.git"
     },
     "devDependencies": {
         "@react-native-community/eslint-config": "0.0.7",
