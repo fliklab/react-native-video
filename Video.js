@@ -286,7 +286,7 @@ export default class Video extends Component {
     const isAsset = !!(uri && uri.match(/^(assets-library|ipod-library|file|content|ms-appx|ms-appdata):/));
 
     let nativeResizeMode;
-    const RCTVideoInstance = this.getViewManagerConfig('RCTVideo');
+    const RCTVideoInstance = this.getViewManagerConfig('RCTVollaVideo');
 
     if (resizeMode === VideoResizeMode.stretch) {
       nativeResizeMode = RCTVideoInstance.Constants.ScaleToFill;
@@ -361,7 +361,7 @@ export default class Video extends Component {
         this._videoContainer = videoContainer;
         return videoContainer;
         }} style={[nativeProps.style, videoStyle]}>
-        <RCTVideo
+        <RCTVollaVideo
           ref={this._assignRoot}
           {...nativeProps}
           style={StyleSheet.absoluteFill}
@@ -522,7 +522,7 @@ Video.propTypes = {
   ...ViewPropTypes,
 };
 
-const RCTVideo = requireNativeComponent('RCTVollaVideo', Video, {
+const RCTVollaVideo = requireNativeComponent('RCTVollaVideo', Video, {
   nativeOnly: {
     src: true,
     seek: true,
