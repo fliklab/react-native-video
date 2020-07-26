@@ -1,4 +1,4 @@
-package com.brentvatne.receiver;
+package com.vollainc.receiver;
 
 public interface BecomingNoisyListener {
 

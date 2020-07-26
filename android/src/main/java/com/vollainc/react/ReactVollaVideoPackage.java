@@ -1,8 +1,8 @@
-package com.brentvatne.react;
+package com.vollainc.react;
 
-import com.brentvatne.exoplayer.DefaultReactExoplayerConfig;
-import com.brentvatne.exoplayer.ReactExoplayerConfig;
-import com.brentvatne.exoplayer.ReactExoplayerViewManager;
+import com.vollainc.exoplayer.DefaultReactExoplayerConfig;
+import com.vollainc.exoplayer.ReactExoplayerConfig;
+import com.vollainc.exoplayer.ReactExoplayerViewManager;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -12,14 +12,14 @@ import com.facebook.react.uimanager.ViewManager;
 import java.util.Collections;
 import java.util.List;
 
-public class ReactVideoPackage implements ReactPackage {
+public class ReactVollaVideoPackage implements ReactPackage {
 
     private ReactExoplayerConfig config;
 
-    public ReactVideoPackage() {
+    public ReactVollaVideoPackage() {
     }
 
-    public ReactVideoPackage(ReactExoplayerConfig config) {
+    public ReactVollaVideoPackage(ReactExoplayerConfig config) {
         this.config = config;
     }
 

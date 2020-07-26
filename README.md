@@ -1,7 +1,7 @@
 ## react-native-video
 
 A `<Video>` component for react-native, as seen in
-[react-native-login](https://github.com/brentvatne/react-native-login)!
+[react-native-login](https://github.com/vollainc/react-native-login)!
 
 Version 5.x recommends react-native >= 0.60.0 for Android 64bit builds and Android X support.
 
@@ -166,7 +166,7 @@ android.enableJetifier=true
 On top, where imports are:
 
 ```java
-import com.brentvatne.react.ReactVideoPackage;
+import com.vollainc.react.ReactVideoPackage;
 ```
 
 Add the `ReactVideoPackage` class to your list of exported packages.
@@ -1403,7 +1403,7 @@ If you encounter an error `Could not find com.android.support:support-annotation
 - [x] Callback to get buffering progress for remote videos
 - [ ] Bring API closer to HTML5 `<Video>` [reference](http://devdocs.io/html/element/video)
 
-[1]: https://github.com/brentvatne/react-native-login/blob/56c47a5d1e23781e86e19b27e10427fd6391f666/App/Screens/UserInfoScreen.js#L32-L35
+[1]: https://github.com/vollainc/react-native-login/blob/56c47a5d1e23781e86e19b27e10427fd6391f666/App/Screens/UserInfoScreen.js#L32-L35
 [2]: https://github.com/react-native-community/react-native-video/tree/master/example
 [3]: https://developer.apple.com/library/ios/qa/qa1668/_index.html
 
